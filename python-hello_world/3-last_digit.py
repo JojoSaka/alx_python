@@ -1,7 +1,10 @@
 import random
 number = random.randint(-10000, 10000)
 number = str(number)
-new_number= number[-1]
+if number < 0:
+  new_number= number[-1] * -1
+else:
+  new_number = number[-1]
 new_number = int(new_number)
 if new_number > 5:
   print("Last digit of {} is {} and is greater than 5".format(number, new_number))
