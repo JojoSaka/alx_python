@@ -11,5 +11,4 @@ elif new_number == 0:
   print("Last digit of {} is {} and is 0".format(number, new_number))
 elif new_number < 6 and new_number != 0:
   print("Last digit of {} is {} and is less than 6 and not 0".format(number, new_number))
-else:
 return TypeError
