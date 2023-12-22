@@ -4,13 +4,13 @@ def fibonacci_sequence(n):
     count = 0
     n_terms = int(n)  - 2
 
-    if n_terms + 2 == 0:
-        fina_list = []
+    if (n_terms + 2) == 0:
+        fina_list = [0]
         return fina_list
         SystemExit
     
     elif n_terms < 0:
-        fina_list = [0]
+        fina_list = []
         return fina_list
         SystemExit
     
