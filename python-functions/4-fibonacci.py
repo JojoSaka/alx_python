@@ -3,9 +3,8 @@ def fibonacci_sequence(n):
     n_2 = 1
     count = 0
     n_terms = int(n)  - 2
-    zero_term = n_term + 2
 
-    if zero_term == 0:
+    if n_terms + 2 == 0:
         fina_list = [0]
         return fina_list
         SystemExit
