@@ -3,7 +3,18 @@ def fibonacci_sequence(n):
     n_2 = 1
     count = 0
     n_terms = int(n)  - 2
-    fina_list = [0, 1]
+    if n_terms < 0:
+        fina_list = []
+        return fina_list
+        SystemExit
+    
+    elif n_terms < 1:
+        fina_list = [0]
+        return fina_list
+        SystemExit
+    
+    else:
+        fina_list = [0,1]
         
     while count < n_terms:
         ntotal = n_1 + n_2
